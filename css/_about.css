@@ -1,0 +1,15 @@
+.bar {
+    background-color: rgb(43, 43, 43);
+    height: .75px;
+    width: cover;
+}
+.about-title {
+    font-weight: bolder;
+    color: rgb(125, 125, 125);
+}
+
+.about-paragraph {
+    font-family: 'Special Elite', cursive;
+    font-size: 18px;
+    color: rgb(125, 125, 125);
+}
