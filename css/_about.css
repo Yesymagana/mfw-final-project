@@ -5,6 +5,7 @@
 
 .about-paragraph {
     font-family: 'Special Elite', cursive;
-    font-size: 18px;
+    font-size: 20px;
     color: rgb(125, 125, 125);
+    line-height: 35px;
 }
