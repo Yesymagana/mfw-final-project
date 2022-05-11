@@ -5,7 +5,7 @@
 }
 .projects-container h2 {
     font-weight: bolder;
-    text-shadow: -5px 5px 5px rgb(54, 54, 54);
+    /* text-shadow: -5px 5px 5px rgb(54, 54, 54); */
 }
 .projects-container h3 {
     justify-content: center;

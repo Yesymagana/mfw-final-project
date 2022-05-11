@@ -24,7 +24,7 @@
     <title>Portfolio Home</title>
 </head>
 
-<body id="main-top" class="bg-success" style="--bs-bg-opacity: .5;">
+<body id="main-top" class="bg-transparent" style="--bs-bg-opacity: .5;">
     
     <!-- Navbar -->
     <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
@@ -38,7 +38,7 @@
               <a class="nav-link active" aria-current="page" href="#main-top">Home</a>
               <a class="nav-link" href="#about-me">About</a>
               <a class="nav-link" href="#projects">Projects</a>
-              <a class="nav-link" href="./contact.html" target="_blank">Contact</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </div>
           </div>
         </div>
@@ -59,7 +59,6 @@
     <!-- Hero: End -->
 
     <!-- About Me -->
-    <section class="bar"></section>
     <section class="text-center display-4 fw-bold p-2 bg-light">
         <h2 class="about-title fw-bold p-2">A little about me</h2>
         <div class="p-2 text-center">
@@ -67,7 +66,6 @@
           <p id="projects" class="about-paragraph fw-light">As of this moment, I have gained some experience using HTML and CSS. I'm definitely planning on continuing so I hope to be able to learn and understand Javascript, as well as everything else that lies ahead pretty soon! For a sneak peak at some of the projects I've completed thus far, click on the links below!</p>
         </div>
     </section>
-    <section class="bar"></section>
     <!-- About Me: End -->
 
     <!-- Projects -->
@@ -137,6 +135,36 @@
         </div>
     </section>
     <!-- Projects: End -->
+
+    <!-- Contact Form -->
+    <div id="contact" style="width: 40%; margin: auto" class="large-border">
+        <div class="row">
+            <form class="p-5">
+                <div >
+                <h4>Interested in connecting?</h4>
+                  <label class="text-dark" for="exampleInputEmail1">Your email address:</label>
+                  <input class="form-control"  type="email"id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div class="form-text" id="emailHelp">Your email will never be shared with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Your message here:</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                <!-- <div class="mb-3">
+                  <label class="form-label" for="exampleInputPassword1" >Password</label>
+                  <input class="form-control"  type="password"  id="exampleInputPassword1">
+                </div> -->
+                <div class="mb-3 form-check">
+                  <input  class="form-check-input" type="checkbox" id="exampleCheck1">
+                  <label  for="exampleCheck1">I'm not a robot :)</label>
+                </div>
+                <button class="btn btn-lg btn-warning" type="submit">Submit</button>
+            </form>
+        <hr>
+        </div>
+    </div>
+    <!-- Contact Form: End -->
+
     <!-- Footer -->
     <footer class="footer border bg-dark">
         <div class="icons container"> 
