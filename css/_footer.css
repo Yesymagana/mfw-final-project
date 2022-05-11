@@ -1,0 +1,73 @@
+.border{
+    border: 1px solid #020202;
+}
+h6{
+    font-family: 'Special Elite', cursive;;
+    font-size: 15px;
+    top: 20%;
+    left: 90%;
+}
+ footer{
+     color: rgb(255, 255, 255);
+     text-align: right;
+     padding-top: 7px;
+     padding-right: 9px;
+     clear: both;
+     height: 85px;
+     width: 100%;
+     top: 2950px;
+}
+.icons{
+    top: 20%;
+    left: 1%;
+    text-align: center;
+}
+.fa-instagram{
+    color: rgb(255, 255, 255);
+    z-index: 1;
+}
+.fa-instagram:hover{
+    color: rgb(58, 127, 231);
+}
+.fa-twitter{
+    color: rgb(255, 255, 255);
+    z-index: 1;
+}
+.fa-twitter:hover{
+    color: rgb(58, 127, 231);
+}
+.fa-facebook-f{
+    color: rgb(255, 255, 255);
+    z-index: 1;
+}
+.fa-facebook-f:hover{
+    color: rgb(58, 127, 231);
+}
+.fa-flickr{
+    color: rgb(255, 255, 255);
+    z-index: 1;
+}
+.fa-flickr:hover{
+    color: rgb(58, 127, 231);
+}
+.fa-tumblr{
+    color: rgb(255, 255, 255);
+    z-index: 1;
+}
+.fa-tumblr:hover{
+    color: rgb(58, 127, 231);
+}
+.back-to-top a{
+    background-color: transparent;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #fff;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+}
+.back-to-top a:hover{
+    color: rgb(58, 127, 231);
+}
