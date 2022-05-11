@@ -1,7 +1,9 @@
 @import './_nav.css';
 @import './_footer.css';
 
-
+.background {
+   background-color: rgba(125, 148, 225, 0.777);
+}
 .column1{
     position: absolute;
     top: 115px;
@@ -33,6 +35,7 @@ p{
 }
 .image{
    position: absolute;
+   border: 500px;
    top: 165px;
    left: 55%;
 }

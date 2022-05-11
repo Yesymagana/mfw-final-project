@@ -1,6 +1,12 @@
 .projects-container {
-    background-color: rgb(217, 195, 94);
+    /* background-color: rgb(217, 195, 94); */
+    background-color: rgba(125, 148, 225, 0.777);
     color: rgb(255, 255, 255);    
+}
+.bar {
+    background-color: rgb(43, 43, 43);
+    height: 0.5px;
+    width: cover;
 }
 .projects-container h2 {
     font-weight: bolder;
