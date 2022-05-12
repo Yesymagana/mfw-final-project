@@ -36,7 +36,7 @@ nav {
     justify-content: center;
 }
 .hero-bg {
-    background-image: url(/images/hero-image.jpg);
+    background-image: url("../images/hero-image.jpg");
 }
 .hero-title {
     font-size: 5rem;
